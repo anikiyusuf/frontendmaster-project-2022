@@ -44,9 +44,15 @@ background-color: plum;
     color:aqua;
     display:block;
   }
-  #intro h2{
-    font-size:3rem;
-    font-weight:normal;
+  nav ul li  h1 img{
+    object-fit: cover;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    margin-left: 1rem;
+  
   }
   /* contact*/
   #contact{
@@ -65,11 +71,9 @@ background-color: plum;
   nav{
     font-family:mono;
     font-size:80%;
-    padding:1rem
+    padding:1rem;
   }
-  nav h1 a{
-    font-family:sans;
-  }
+ 
   nav ul{
     list-style-type:none;
     padding:0;
@@ -481,5 +485,8 @@ article {
       flex-basis: auto;
       text-align: left;
       margin-right: auto;
+  
   }
+ 
+
 }
