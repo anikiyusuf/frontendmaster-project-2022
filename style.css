@@ -385,7 +385,7 @@ nav [class*="fa-"]:hover {
 
 .button:hover {
   color: white;
-  background-color: var(--hotmag);
+  background-color: magenta;
 }
 
 /* projects section */
